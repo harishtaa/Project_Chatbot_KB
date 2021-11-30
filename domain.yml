@@ -1,0 +1,233 @@
+version: "2.0"
+
+intents:
+  - i_greet
+  - i_singkat_nm_gelar
+  - i_kepanjangan_SH
+  - i_kepanjangan_SKM
+  - i_kepanjangan_MHUM
+  - i_kepanjangan_mgr
+
+  - i_huruf_kapital_pertama
+  - i_penulisan_kt_kapital_pertama
+  - i_penggunaan_huruf_miring
+  - i_penggunaan_huruf_tebal
+
+  - i_penggunaan_kt_dasar
+  - i_cth_penggunaan_kt_dasar
+
+  - i_cara_tulis_kt_berimbuhan
+  - i_cth_kt_berimbuhan
+  - i_cara_tulis_kt_berimbuhan_serapan_asing
+  - i_cara_tulis_kt_terikat
+  - i_penggunaan_kt_terikat_maha
+
+  - i_penggunaan_bentuk_ulang
+
+  - i_unsur_gab_kt
+  - i_cth_kt_majemuk
+  - i_menghindari_slh_arti_gab_kt
+  - i_penulisan_gab_kt_terpisah_awalan_akhiran
+  - i_penulisan_gab_kt_yg_sudah_padu
+  
+  - i_aturan_pemenggalan_kt_jika_ada_huruf_vokal
+  - i_aturan_pemenggalan_kt_diftong
+  - i_aturan_pemenggalan_kt_diantara_dua_huruf_vokal
+  - i_aturan_pemenggalan_kt_diantara_dua_huruf_konsonan_berurutan
+  - i_aturan_pemenggalan_kt_jika_ada_tiga_huruf
+  - i_aturan_pemenggalan_kt_dalam_gab_huruf_konsonan
+  - i_aturan_pemenggalan_kt_turunan
+  - i_aturan_terjadi_perubahan_bentuk_dasar
+  - i_aturan_dalam_pemenggalan_kata_bersisipan
+  - i_aturan_pemenggalan_kt_thd_munculnya_satu_baris
+  - i_aturan_pemenggalan_kt_jk_ada_unsur_lain_yg_bergabung
+  - i_aturan_pemenggalan_kt_thd_nama_orang_pd_akhir
+  - i_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
+
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hai, selamat datang di bot FAQ UNSRI! Disini kalian dapat bertanya mengenai topik berikut: \n \n
+            [1] Penyingkatan Nama Gelar\n
+            [2] Huruf Miring\n
+            [3] Huruf Tebal\n
+            [4] Kata Dasar\n
+            [5] Kata Berimbuhan\n
+            [6] Bentuk Ulang\n
+            [7] Gabungan Kata\n
+            [8] Pemenggalan Kata\n
+            Silahkan tulis pertanyaan kalian.."
+  
+  utter_singkat_nm_gelar:
+  - text: "Penyingkatan suatu gelar/pangkat/sapaan dapat dilakukan dengan cara menuliskan huruf pertama menggunakan huruf kapital sebagai perwakilan dari suatu kata gelar, pangkat, atau sapaan"
+  
+  utter_kepanjangan_SH:
+  - text: "S.H. merupakan akronim atau singkatan berupa huruf kapital pertama di setiap kata sebagai perwakilan dari gelar, yaitu Sarjana Hukum"
+  
+  utter_kepanjangan_SKM:
+  - text: "S.K.M. merupakan akronim atau singkatan berupa huruf kapital pertama di setiap kata sebagai perwakilan dari gelar, yaitu Sarjana Kesehatan Masyarakat"
+  
+  utter_kepanjangan_MHUM:
+  - text: "M.Hum merupakan akronim atau singkatan berupa huruf kapital pertama di setiap kata sebagai perwakilan dari gelar, yaitu Magister Hukum"
+  
+  utter_kepanjangan_mgr:
+  - text: "Mgr merupakan akronim atau singkatan berupa huruf kapital pertama di setiap kata sebagai perwakilan dari sapaan, yaitu monseigneur"
+
+
+
+
+  utter_huruf_kapital_pertama:
+  - text: "Huruf kapital dapat digunakan sebagai huruf pertama kata penunjukkan hubungan kekerabatan, seperti bapak, ibu, kakak, adik, dan paman, serta kata atau ungkapan lain yang dipakai dalam penyapaan atau pengacuan"
+
+  utter_penulisan_kt_kapital_pertama:
+  - text: "Huruf kapital dapat digunakan sebagai huruf pertama kata penunjukkan hubungan kekerabatan, seperti bapak, ibu, kakak, adik, dan paman, serta kata atau ungkapan lain yang dipakai dalam penyapaan atau pengacuan"
+
+  utter_penggunaan_huruf_miring:
+  - text: "Penggunaan huruf miring dapat digunakan untuk: :\n \n
+            1. Huruf miring dipakai untuk menuliskan judul buku, nama majalah, atau nama surat kabar yang dikutip dalam tulisan, termasuk dalam daftar pustaka.\n\n
+            2. huruf miring dipakai untuk menegaskan atau mengkhu suskan huruf, bagian kata, kata, atau kelompok kata dalam kalimat.\n \n
+            3. huruf miring dipakai untuk menuliskan kata atau ungka pan dalam bahasa daerah atau bahasa asing.\n \n" 
+
+  utter_penggunaan_huruf_tebal:
+  - text: "Penggunaan huruf tebal dapat digunakan untuk: :\n \n
+            1. Huruf tebal dipakai untuk menegaskan bagian tulisan yang sudah ditulis miring.\n \n
+            2. Huruf tebal dapat dipakai untuk menegaskan bagian bagian karangan, seperti judul buku, bab, atau subbab\n \n"
+  
+
+  utter_penggunaan_kt_dasar:
+  - text: "Kata dasar dapat ditulis sebagai satu kesatuan."
+
+  utter_cth_penggunaan_kt_dasar:
+  - text: "Contoh dari penggunaan kata dasar adalah kantor pajak penuh sesak atau contoh
+          lainnya yaitu saya pergi ke sekolah."
+
+  utter_cara_tulis_kt_berimbuhan:
+  - text: "Imbuhan (awalan, sisipan, akhiran, serta gabungan awalan dan akhiran) ditulis
+          serangkai dengan bentuk dasarnya."
+
+  utter_cth_kt_berimbuhan:
+  - text: "Contoh dari kata berimbuhan adalah ber-jalan, ber-kelanjut-an, mem-permudah, dan luki-san"
+
+  utter_cara_tulis_kt_berimbuhan_serapan_asing:
+  - text: "Imbuhan yang diserap dari unsur asing, seperti -isme, -man, -wan, atau -wi,
+          ditulis serangkai dengan bentuk dasarnya. Contohnya adalah Kata sukuisme, seniman, dan gerejawi adalah contoh kata berimbuhan
+          sukuisme"
+
+  utter_cara_tulis_kt_terikat:
+  - text: "Bentuk terikat ditulis serangkai dengan kata yang mengikutinya. Contohnya Adibusana, dwiwarna, dekameter, dan tansuara adalah contoh serangkaian kata
+          terikat dengan kata lainnya.\n
+          Jika terikat dengan kata yang berhuruf awal kapital atau singkatan yang berupa huruf kapital dirangkaikan dengan tanda hubung (-). Contoh kata terikat dengan kata yang berhuruf awal kapital adalah nonIndonesia dan anti-PKI"
+  
+  utter_penggunaan_kt_terikat_maha:
+  - text: "Ada dua ketentuan dalam menggunakan huruf maha sebagai bentuk kata terikat.\n\n
+          Pertama, Bentuk maha yang diikuti kata turunan yang mengacu pada nama atau
+          sifat Tuhan ditulis terpisah dengan huruf awal kapital.\n\n
+          Kedua, Bentuk maha yang diikuti kata dasar yang mengacu kepada nama atau
+          sifat Tuhan, kecuali kata esa, ditulis serangkai"
+
+
+  utter_penggunaan_bentuk_ulang:
+  - text: "Bentuk ulang ditulis dengan menggunakan tanda hubung (-) di antara unsurunsurnya. Bentuk ulang gabungan kata ditulis dengan mengulang unsur
+          pertama. Contoh dari kata bentuk ulang adalah anak-anak, cumi-cumi, biri-biri, dan juga
+          surat-surat kabar"
+
+
+  utter_unsur_gab_kt:
+  - text: "Unsur gabungan kata yang lazim disebut kata majemuk, termasuk istilah
+          khusus, ditulis terpisah."
+
+  utter_cth_kt_majemuk:
+  - text: "Kata majemuk adalah istilah lain dari gabungan kata yang punya contoh seperti
+          duta besar, kambing hitam, dan cendera mata."
+
+
+  utter_menghindari_slh_arti_gab_kt:
+  - text: "Gabungan kata yang dapat menimbulkan salah pengertian ditulis dengan
+          membubuhkan tanda hubung (-) di antara unsur-unsurnya. Contohnya adalah
+          anak-istri pejabat atau anak istri-pejabat"
+
+  utter_penulisan_gab_kt_terpisah_awalan_akhiran:
+  - text: "Gabungan kata yang penulisannya terpisah tetap ditulis terpisah jika mendapat
+        awalan atau akhiran. Seperti: bertepuk tangan (awalan ber), garis bawahi
+        (akhiran i).\n
+        Jika Gabungan kata yang mendapat awalan dan akhiran sekaligus ditulis serangkai.
+        Seperti: dilipatgandakan (di,kan), pertanggungjawaban (per,an)."
+
+  utter_penulisan_gab_kt_yg_sudah_padu:
+  - text: "Gabungan kata yang sudah padu ditulis serangkai. Seperti: acapkali, kilometer,
+        bilamana, segitiga, wiraswasta, dsb."
+
+
+  utter_aturan_pemenggalan_kt_jika_ada_huruf_vokal:
+  - text: "Jika di tengah kata terdapat huruf vokal yang berurutan, pemenggalannya
+        dilakukan di antara kedua huruf vokal itu. Seperti: bu-ah, ma-in, ni-at, sa-at."
+
+  utter_aturan_pemenggalan_kt_diftong:
+  - text: "Huruf diftong ai, au, ei dan oi tidak dipenggal. Misal: pan-dai, au-la, sau-da-ra, sur-vei"
+
+  utter_aturan_pemenggalan_kt_diantara_dua_huruf_vokal:
+  - text: "Jika di tengah kata dasar terdapat huruf konsonan (termasuk gabungan huruf
+        konsonan) di antara dua huruf vokal, pemenggalannya dilakukan sebelum huruf
+        konsonan itu. Misal: ba-pak, la-wan, de-ngan, ke-nyang, mu-sya-wa-rah."
+
+  utter_aturan_pemenggalan_kt_diantara_dua_huruf_konsonan_berurutan:
+  - text: "Jika di tengah kata dasar terdapat dua huruf konsonan yang berurutan,
+        pemenggalannya dilakukan di antara kedua huruf konsonan itu. Misal: ap-ril,
+        cap-lok, makh-luk, man-di, sang-gup, som-bong, swas-ta."
+
+  utter_aturan_pemenggalan_kt_jika_ada_tiga_huruf:
+  - text: "Jika di tengah kata dasar terdapat tiga huruf konsonan atau lebih yang masingmasing melambangkan satu bunyi,
+        pemenggalannya dilakukan di antara huruf konsonan yang pertama dan huruf konsonan yang kedua. Misal: ul-tra, in-fra,
+        ben-trok, in-stru-men"
+
+
+  utter_aturan_pemenggalan_kt_dalam_gab_huruf_konsonan:
+  - text: "Gabungan huruf konsonan yang melambangkan satu bunyi tidak dipenggal.
+        Misal: bang-krut, bang-sa, ba-nyak, ikh-las, kong-res, makh-luk, sang-gup."     
+
+  utter_aturan_pemenggalan_kt_turunan:
+  - text: "Pemenggalan kata turunan sedapat-dapatnya dilakukan di antara bentuk dasar
+        dan unsur pembentuknya. Misal: ber-jalan, per-buat, kekuat-an,
+        mempertanggung-jawabkan, me-rasakan, perbuat-an, ke-kuatan."     
+
+  utter_aturan_terjadi_perubahan_bentuk_dasar:
+  - text: "Pemenggalan kata berimbuhan yang bentuk dasarnya mengalami perubahan
+        dilakukan seperti pada kata dasar. Seperti: me-nu-tup, me-ma-kai, pe-no-long,
+        pe-nga-rang, pe-nye-but."
+
+  utter_aturan_dalam_pemenggalan_kata_bersisipan:
+  - text: "Pemenggalan kata bersisipan dilakukan seperti pada kata dasar. Misal: ge-lembung, ge-mu-ruh, si-nam-bung, te-lun-juk"
+
+  utter_aturan_pemenggalan_kt_thd_munculnya_satu_baris:
+  - text: "Pemenggalan kata yang menyebabkan munculnya satu huruf di awal atau akhir
+        baris tidak dilakukan. Misal: 'Walaupun cuma-cuma, mereka tidak mau
+        mengambil makanan itu.'"
+        
+  utter_aturan_pemenggalan_kt_jk_ada_unsur_lain_yg_bergabung:
+  - text: "Jika sebuah kata terdiri atas dua unsur atau lebih dan salah satu unsurnya itu
+        dapat bergabung dengan unsur lain, pemenggalannya dilakukan di antara unsurunsur itu. 
+        Tiap unsur gabungan itu dipenggal seperti pada kata dasar. Misal:\n
+        - biografi  bio-grafi  bi-o-gra-fi\n
+        - fotokopi  foto-kopi  fo-to-ko-pi\n
+        - introspeksi  intro-speksi  in-tro-spek-si"
+
+  utter_aturan_pemenggalan_kt_thd_nama_orang_pd_akhir:
+  - text: "Nama orang yang terdiri atas dua unsur atau lebih pada akhir baris dipenggal di
+        antara unsur-unsurnya. Misal: “Lagu “Indonesia Raya” digubah oleh Wage
+        Rudolf Supratman.”"
+
+  utter_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf:
+  - text: "Singkatan nama diri dan gelar yang terdiri atas dua huruf atau lebih tidak
+        dipenggal.\n
+        Misal:\n
+        - “Ia bekerja di DLLAJR.”\n
+        - “Pujangga terakhir Keraton Surakarta bergelar R.Ng.Rangga Warsita.”\n"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

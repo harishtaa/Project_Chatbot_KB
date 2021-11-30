@@ -1,0 +1,216 @@
+version: "2.0"
+
+nlu:
+
+- intent: i_greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - menu
+    - hey there
+    - start
+    - hai
+    - halo
+
+- intent: i_singkat_nm_gelar
+  examples: |
+    - Bagaimana cara menyingkat suatu gelar?
+    - Bagaimana cara menyingkat suatu pangkat?
+    - Bagaimana cara menyingkat suatu sapaan? 
+
+- intent: i_kepanjangan_SH
+  examples: |
+    - Apa kepanjangan dari SH?
+    - Apa kepanjangan dari S.H?
+
+- intent: i_kepanjangan_SKM
+  examples: |
+    - Apa kepanjangan dari SKM?
+    - Apa kepanjangan dari S.K.M?
+
+- intent: i_kepanjangan_MHUM
+  examples: |
+    - Apa kepanjangan dari M Hum
+    - Apa kepanjangan dari M.Hum
+
+- intent: i_kepanjangan_mgr
+  examples: |
+    - Apa kepanjangan dari Mgr?
+    - kepnajangan M.Gr
+
+
+- intent: i_huruf_kapital_pertama
+  examples: |
+    - Bagaimana penggunaan huruf kapital pada huruf pertama kata penunjukkan kekerabatan atau ungkapan lain dalam penyapaan atau pengacuan?
+    - Bagaimana penggunaan huruf kapital pertama dalam penyapaan?
+
+- intent: i_penulisan_kt_kapital_pertama
+  examples: |
+    - Apakah penulisan kata bapa diawali dengan huruf kapital?
+    - Apakah penulisan kata ibu diawali dengan huruf kapital?
+    - Bagaimana cara penulisan bapak/ibu?
+
+- intent: i_penggunaan_huruf_miring
+  examples: |
+    - Apa kegunaan dari huruf miring?
+    - Huruf miring dapat digunakan untuk?
+    - bagaimana penggunaan huruf miring?
+
+
+- intent: i_penggunaan_huruf_tebal
+  examples: |
+    - Apa kegunaan dari huruf tebal?
+    - bagaimana penggunaan huruf tebal?
+
+
+
+- intent: i_penggunaan_kt_dasar
+  examples: |
+    - Bagaimana cara menulis kata dasar?
+    - penggunaan kata dasar
+    - cara pakai kata dasar
+
+- intent: i_cth_penggunaan_kt_dasar
+  examples: |
+    - Apa contoh dari penggunaan kata dasar? 
+    - contoh penggunaan kata dasar
+    - contoh kata dasar
+
+
+- intent: i_cara_tulis_kt_berimbuhan
+  examples: |
+    - Bagaimana cara menulis kata berimbuhan?
+    - penulisan kata berimbuhan
+
+- intent: i_cth_kt_berimbuhan
+  examples: |
+    - Apa contoh dari kata berimbuhan?
+    - contoh kata berimbuhan
+
+- intent: i_cara_tulis_kt_berimbuhan_serapan_asing
+  examples: |
+    - Bagiamana cara menulis kata imbuhan yang diserap dari unsur asing? 
+    - kata berimbuhan dari unsur asing
+    - imbuhan serapan unsur asing
+    - contoh imbuhan serapan asing
+
+- intent: i_cara_tulis_kt_terikat
+  examples: |
+    - Bagaimana caranya menulis kata terikat dengan kata lainnya?
+    - penulisan kata terikat
+    - contoh penulisan kata terikat
+
+- intent: i_penggunaan_kt_terikat_maha
+  examples: |
+    - Bagaimana penggunaan kata terikat maha? 
+    - kata terikat maha
+
+
+- intent: i_penggunaan_bentuk_ulang
+  examples: |
+    - Bagaimana cara menulis bentuk ulang?
+    - penulisan kata bentuk ulang
+    - penggunaan bentuk ulang
+    - bentuk ulang
+    - contoh bentuk ulang
+
+
+- intent: i_unsur_gab_kt
+  examples: |
+    - Apa unsur dari gabungan kata?
+    - unsur gabungan kata
+    - gabungan kata itu apa
+
+- intent: i_cth_kt_majemuk
+  examples: |
+    - Apa contoh dari kata majemuk?
+    - contoh kata majemuk
+
+- intent: i_menghindari_slh_arti_gab_kt
+  examples: |
+    - Bagaimana cara menghindari salah arti dari gabungan kata? 
+    - salah arti gabungan kata
+
+- intent: i_penulisan_gab_kt_terpisah_awalan_akhiran
+  examples: |
+    - Bagaimana cara penulisan gabungan kata terpisah yang mendapat awalan/akhiran
+    - penulisan gabungankata yang memiliki awalan dan akhiran
+    
+- intent: i_penulisan_gab_kt_yg_sudah_padu
+  examples: |
+    - Bagaimana cara penulisan gabungan kata terpisah yang sudah padu?
+    - penulisan gabungankata yang sudah padu
+
+
+
+- intent: i_aturan_pemenggalan_kt_jika_ada_huruf_vokal
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata jika di tengah kata terdapat huruf vokal berurutan?
+    - aturan pemenggalan kata jika terdapat huruf vokal yang berurutan
+
+- intent: i_aturan_pemenggalan_kt_diftong
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata huruf diftong?
+    - aturan pemenggalan kata diftong
+    
+- intent: i_aturan_pemenggalan_kt_diantara_dua_huruf_vokal
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata jika terdapat huruf konsonan di antara dua huruf vokal?
+    - Aturan pemenggalan kata saat berada diantara dua huruf vokal
+
+- intent: i_aturan_pemenggalan_kt_diantara_dua_huruf_konsonan_berurutan
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata jika terdapat dua huruf konsonan yang berurutan?
+    - aturan dalam pemenggalan kata jika terdapat dua huruf konsonan yang berurutan?
+
+- intent: i_aturan_pemenggalan_kt_jika_ada_tiga_huruf
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata jika terdapat tiga huruf konsonan atau lebih yang melambangkan satu bunyi?
+    - aturan dalam pemenggalan kata jika terdapat tiga huruf konsonan atau lebih
+
+- intent: i_aturan_pemenggalan_kt_dalam_gab_huruf_konsonan
+  examples: |
+    - Bagaimana aturan pemenggalan kata dalam gabungan huruf konsonan?
+    - aturan pemenggalan kata dalam gabungan huruf konsonan
+
+- intent: i_aturan_pemenggalan_kt_turunan
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata turunan?
+    - aturan pemenggalan kata turunan
+
+- intent: i_aturan_terjadi_perubahan_bentuk_dasar
+  examples: |
+    - Bagaimana aturan apabila terjadi perubahan bentuk dasar dalam pemenggalan kata berimbuhan?
+    - aturan apabila terjadi perubahan bentuk dasar dalam pemenggalan kata
+
+- intent: i_aturan_dalam_pemenggalan_kata_bersisipan
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata bersisipan?
+    - aturan dalam pemenggalan kata bersisipan
+
+- intent: i_aturan_pemenggalan_kt_thd_munculnya_satu_baris
+  examples: |
+    - Bagaimana aturan pemenggalan kata terhadap munculnya satu huruf awal/akhir baris?
+    - aturan pemenggalan kata terhadap munculnya satu huruf awal/akhir baris
+    - aturan pemenggalan kata terhadap munculnya satu huruf awal atau akhir baris
+    - Bagaimana aturan pemenggalan kata terhadap munculnya satu huruf awal atau akhir baris?
+
+- intent: i_aturan_pemenggalan_kt_jk_ada_unsur_lain_yg_bergabung
+  examples: |
+    - Bagaimana aturan dalam pemenggalan sebuah kata jika terdiri dari dua unsur atau lebih yang salah satunya dapat bergabung dengan unsur lain?
+    - aturan pemenggalan kata saat ada unsur lain yang dapat bergabung
+
+- intent: i_aturan_pemenggalan_kt_thd_nama_orang_pd_akhir
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata terhadap nama orang yang memiliki dua unsur atau lebih pada akhir baris?
+    - aturan dalam pemenggalan kata terhadap nama orang pada akhir baris
+
+- intent: i_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
+  examples: |
+    - Bagaimana aturan dalam pemenggalan kata terhadap singkatan nama diri dan gelar yang terdiri atas dua huruf atau lebih?
+    - aturan dalam pemenggalan kata terhadap singkatan nama diri dan gelar
+

@@ -1,0 +1,112 @@
+version: "2.0"
+
+stories:
+
+- story: Penyingkatan Nama Gelar
+  steps:
+    - intent: i_singkat_nm_gelar
+    - action: utter_singkat_nm_gelar
+    - intent: i_kepanjangan_SH
+    - action: utter_kepanjangan_SH
+    - intent: i_kepanjangan_SKM
+    - action: utter_kepanjangan_SKM
+    - intent: i_kepanjangan_MHUM
+    - action: utter_kepanjangan_MHUM
+    - intent: i_kepanjangan_mgr
+    - action: utter_kepanjangan_mgr
+
+- story: Huruf Kapital Pertama
+  steps:
+    - intent: i_huruf_kapital_pertama
+    - action: utter_huruf_kapital_pertama
+    - intent: i_penulisan_kt_kapital_pertama
+    - action: utter_penulisan_kt_kapital_pertama
+
+- story: Huruf Miring
+  steps:
+    - intent: i_penggunaan_huruf_miring
+    - action: utter_penggunaan_huruf_miring
+
+- story: Huruf Tebal
+  steps:
+    - intent: i_penggunaan_huruf_tebal
+    - action: utter_penggunaan_huruf_tebal
+
+- story: Kata Dasar
+  steps:
+    - intent: i_penggunaan_kt_dasar
+    - action: utter_penggunaan_kt_dasar
+    - intent: i_cth_penggunaan_kt_dasar
+    - action: utter_cth_penggunaan_kt_dasar
+
+- story: Kata Berimbuhan
+  steps:
+    - intent: i_cara_tulis_kt_berimbuhan
+    - action: utter_cara_tulis_kt_berimbuhan
+    - intent: i_cth_kt_berimbuhan
+    - action: utter_cth_kt_berimbuhan
+    - intent: i_cara_tulis_kt_berimbuhan_serapan_asing
+    - action: utter_cara_tulis_kt_berimbuhan_serapan_asing
+    - intent: i_cara_tulis_kt_terikat
+    - action: utter_cara_tulis_kt_terikat
+    - intent: i_penggunaan_kt_terikat_maha
+    - action: utter_penggunaan_kt_terikat_maha
+
+- story: Bentuk Ulang
+  steps:
+    - intent: i_penggunaan_bentuk_ulang
+    - action: utter_penggunaan_bentuk_ulang
+
+- story: Gabungan Kata
+  steps:
+    - intent: i_unsur_gab_kt
+    - action: utter_unsur_gab_kt
+    - intent: i_cth_kt_majemuk
+    - action: utter_cth_kt_majemuk
+    - intent: i_menghindari_slh_arti_gab_kt
+    - action: utter_menghindari_slh_arti_gab_kt
+    - intent: i_penulisan_gab_kt_terpisah_awalan_akhiran
+    - action: utter_penulisan_gab_kt_terpisah_awalan_akhiran
+    - intent: i_penulisan_gab_kt_yg_sudah_padu
+    - action: utter_penulisan_gab_kt_yg_sudah_padu
+
+- story: Pemenggalan Kata
+  steps:
+    - intent: i_aturan_pemenggalan_kt_jika_ada_huruf_vokal
+    - action: utter_aturan_pemenggalan_kt_jika_ada_huruf_vokal
+    - intent: i_aturan_pemenggalan_kt_diftong
+    - action: utter_aturan_pemenggalan_kt_diftong
+    - intent: i_aturan_pemenggalan_kt_diantara_dua_huruf_vokal
+    - action: utter_aturan_pemenggalan_kt_diantara_dua_huruf_vokal
+    - intent: i_aturan_pemenggalan_kt_diantara_dua_huruf_konsonan_berurutan
+    - action: utter_aturan_pemenggalan_kt_diantara_dua_huruf_konsonan_berurutan
+    - intent: i_aturan_pemenggalan_kt_jika_ada_tiga_huruf
+    - action: utter_aturan_pemenggalan_kt_jika_ada_tiga_huruf
+    - intent: i_aturan_pemenggalan_kt_dalam_gab_huruf_konsonan
+    - action: utter_aturan_pemenggalan_kt_dalam_gab_huruf_konsonan
+    - intent: i_aturan_pemenggalan_kt_turunan
+    - action: utter_aturan_pemenggalan_kt_turunan
+    - intent: i_aturan_terjadi_perubahan_bentuk_dasar
+    - action: utter_aturan_terjadi_perubahan_bentuk_dasar
+    - intent: i_aturan_dalam_pemenggalan_kata_bersisipan
+    - action: utter_aturan_dalam_pemenggalan_kata_bersisipan
+    - intent: i_aturan_pemenggalan_kt_thd_munculnya_satu_baris
+    - action: utter_aturan_pemenggalan_kt_thd_munculnya_satu_baris
+    - intent: i_aturan_pemenggalan_kt_jk_ada_unsur_lain_yg_bergabung
+    - action: utter_aturan_pemenggalan_kt_jk_ada_unsur_lain_yg_bergabung
+    - intent: i_aturan_pemenggalan_kt_thd_nama_orang_pd_akhir
+    - action: utter_aturan_pemenggalan_kt_thd_nama_orang_pd_akhir
+    - intent: i_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
+    - action: utter_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
+
+
+
+
+
+
+
+
+- story: happy path
+  steps:
+  - intent: i_greet
+  - action: utter_greet
