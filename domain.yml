@@ -2,6 +2,8 @@ version: "2.0"
 
 intents:
   - i_greet
+  - i_thanks
+
   - i_singkat_nm_gelar
   - i_kepanjangan_SH
   - i_kepanjangan_SKM
@@ -51,15 +53,18 @@ intents:
 responses:
   utter_greet:
   - text: "Hai, selamat datang di bot FAQ UNSRI! Disini kalian dapat bertanya mengenai topik berikut: \n \n
-            [1] Penyingkatan Nama Gelar\n
-            [2] Huruf Miring\n
-            [3] Huruf Tebal\n
-            [4] Kata Dasar\n
-            [5] Kata Berimbuhan\n
-            [6] Bentuk Ulang\n
-            [7] Gabungan Kata\n
-            [8] Pemenggalan Kata\n
+            [1] Penyingkatan Nama Gelar \n \n
+            [2] Huruf Miring \n \n
+            [3] Huruf Tebal \n \n
+            [4] Kata Dasar \n \n
+            [5] Kata Berimbuhan \n \n
+            [6] Bentuk Ulang \n \n
+            [7] Gabungan Kata \n \n
+            [8] Pemenggalan Kata \n \n
             Silahkan tulis pertanyaan kalian.."
+
+  utter_thanks:
+  - text: "Terima kasih telah menggunakan ChatBot FAQ UNSRI, jika masih ada pertanyaan, silahkan ajukan pertanyaan disini.."
   
   utter_singkat_nm_gelar:
   - text: "Penyingkatan suatu gelar/pangkat/sapaan dapat dilakukan dengan cara menuliskan huruf pertama menggunakan huruf kapital sebagai perwakilan dari suatu kata gelar, pangkat, atau sapaan"

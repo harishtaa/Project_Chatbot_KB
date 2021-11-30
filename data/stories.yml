@@ -99,14 +99,12 @@ stories:
     - intent: i_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
     - action: utter_aturan_pemenggalan_kt_thd_nama_diri_gelar_dua_huruf
 
-
-
-
-
-
-
-
 - story: happy path
   steps:
   - intent: i_greet
   - action: utter_greet
+
+- story: terima kasih
+  steps:
+  - intent: i_thanks
+  - action: utter_thanks

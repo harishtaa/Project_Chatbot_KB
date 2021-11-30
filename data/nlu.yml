@@ -16,6 +16,14 @@ nlu:
     - hai
     - halo
 
+- intent: i_thanks
+  examples: |
+    - terimakasih
+    - makasih
+    - terima kasih
+    - thanks
+    - thank you
+
 - intent: i_singkat_nm_gelar
   examples: |
     - Bagaimana cara menyingkat suatu gelar?
